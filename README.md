@@ -9,10 +9,10 @@
 # Valto Azure Github Repo
 
 ARM templates
-  -Sage Drive Hosting
-  -Azure Lighthouse
-  -Valto Blueprints
-  -Microsoft Sentinel
+* Sage Drive Hosting
+* Azure Lighthouse
+* Valto Blueprints
+* Microsoft Sentinel
 
 ### Valto Website
 
