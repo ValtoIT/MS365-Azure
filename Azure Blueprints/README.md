@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="left">
-  <a href="https://cloud-span.co.uk">
-    <img src="Images/logo.png" alt="Logo" width="682" height="222">
+  <a href="https://valto.co.uk">
+    <img src="Images/Valto.png" alt="Logo" width="682" height="222">
   </a>
 <!-- 
 Version 2.0 
