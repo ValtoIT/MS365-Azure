@@ -8,6 +8,7 @@
 Version 2.0 
 Last edited: 7-3-19
 -->
+
 # Managing Blueprints as Code
 
 Using the Blueprints in the Azure Portal is a great way to get started with Blueprints or to use Blueprints on a small-ish scale, but often you’ll want to manage your Blueprints as code for a variety of reasons, such as:
