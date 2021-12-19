@@ -1,18 +1,18 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="left">
-  <a href="https://cloud-span.co.uk">
-    <img src="Images/logo.png" alt="Logo" width="682" height="222">
+  <a href="https://valto.co.uk">
+    <img src="Images/Valto.png" alt="Logo" width="682" height="222">
   </a>
 
 
 # Valto Azure Github Repo
 
 ARM templates
-  -Sage Drive Hosting
-  -Azure Lighthouse
-  -Valto Blueprints
-  -Microsoft Sentinel
+* Sage Drive Hosting
+* Azure Lighthouse
+* Valto Blueprints
+* Microsoft Sentinel
 
 ### Valto Website
 
