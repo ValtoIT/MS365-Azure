@@ -2,7 +2,7 @@
 <br />
 <p align="left">
   <a href="https://valto.co.uk">
-    <img src="Images/Valto.png" alt="Logo" width="682" height="222">
+    <img src="Images/Valto.png" alt="Logo" width="482" height="122">
   </a>
 <!-- 
 Version 2.0 
