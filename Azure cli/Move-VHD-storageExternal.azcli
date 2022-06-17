@@ -23,7 +23,7 @@ storageContainerName=fresh-vhd
 storageAccountKey=+SNq9DWkpr2KHo8PEmTdyXuJKcHIpzQ7k1r0pB6c7sLNleSxIMSNwdRFq7enJGuP6rPEp0sq/4qNo1jQp2IGMQ==
 
 #Provide the name of the VHD file to which snapshot will be copied.
-destinationVHDFileName=TEST-DataSnapShot-15-05-22.vhd
+destinationVHDFileName=LIVE-DataSnapShot-24-06-22.vhd
 
 az account set --subscription $subId
 
