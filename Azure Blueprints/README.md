@@ -53,9 +53,14 @@ Install-Module -Name Az.Blueprint
 This guide references the files in the [samples/101-boilerplate directory](https://github.com/Azure/azure-blueprints/tree/master/samples/101-boilerplate) and deploys the Boilerplate blueprint as a draft definition to Azure.
 
 ## Quickstart
-Push a sample blueprint definition to Azure:
+Push a sample blueprint definition to Azure Management Group:
 ```powershell
 Import-AzBlueprintWithArtifact -Name Boilerplate -ManagementGroupId "DevMG" -InputPath  ".\samples\101-boilerplate"
+```
+
+Push a sample blueprint definition to Azure Subscription:
+```powershell
+Import-AzBlueprintWithArtifact -Name MySimpleBlueprint -SubscriptionId 00000000-1111-0000-1111-000000000000 -InputPath  C:\Blueprints\SimpleBlueprint
 ```
 
 Publish a new version of that definition so it can be assigned:
