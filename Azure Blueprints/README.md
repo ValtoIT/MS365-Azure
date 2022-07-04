@@ -48,6 +48,10 @@ This doc assumes you have a basic understanding of how blueprints work. If you'v
 ```powershell
 Install-Module -Name Az.Blueprint
 ```
+	
+```powershell
+Connect-AzAccount
+```	
 
 ## How to use this guide
 This guide references the files in the [samples/101-boilerplate directory](https://github.com/Azure/azure-blueprints/tree/master/samples/101-boilerplate) and deploys the Boilerplate blueprint as a draft definition to Azure.
