@@ -6,10 +6,13 @@
   </a>
 
 
-# Valto Azure Github Repo
+# Valto Azure Draft Developement Folder
+
+None of the items in this folder shoud be deployed into a customer's production environment. These are strictly for testing.
 
 ARM templates
-* Sage Drive Hosting
+* Azure ARC
+* Azure Monitoring
 * Azure Lighthouse
 * Valto Blueprints
 * Microsoft Sentinel
