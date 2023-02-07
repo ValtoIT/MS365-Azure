@@ -179,7 +179,7 @@
           "dependsOn": [
             "[concat('Microsoft.Network/virtualNetworks/', variables('spokeVnetName'))]"
           ],
-          "comments": "This is the peering from Spoke VNET to Hub VNET",
+          "comments": "This is the peering from Hub VNET to spoke VNET",
           "properties": {
             "allowVirtualNetworkAccess": "true",
             "allowForwardedTraffic": "false",
