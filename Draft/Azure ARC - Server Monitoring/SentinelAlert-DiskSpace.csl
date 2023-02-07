@@ -1,0 +1,15 @@
+let diskvar =10;
+InsightsMetrics
+| where Name == 'FreeSpaceMB'
+| summarize arg_max(TimeGenerated, *) by Tags, Computer
+| extend Drive = tostring(parse_json(Tags)["vm.azm.ms/mountId"])
+| extend Size = toreal(parse_json(Tags)["vm.azm.ms/diskSizeMB"])
+| project TimeGenerated, Computer, Drive, bin(SizeGB = Size / 1024, 0.1), bin(FreeGB = Val / 1024, 1)
+| join kind=inner (InsightsMetrics
+    | where Name == "FreeSpacePercentage"
+    | summarize arg_max(TimeGenerated, *) by Tags, Computer
+    | extend Drive = tostring(parse_json(Tags)["vm.azm.ms/mountId"])
+    | project TimeGenerated, Computer, Drive, bin(FreePercent = Val, 1.1))
+on Computer, Drive
+| project TimeGenerated, Computer, Drive, SizeGB, FreeGB, FreePercent
+| where FreePercent < diskvar
