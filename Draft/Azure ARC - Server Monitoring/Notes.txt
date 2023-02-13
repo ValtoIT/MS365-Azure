@@ -1,0 +1,1 @@
+https://github.com/MicrosoftDocs/azure-docs/blob/main/articles/azure-monitor/vm/monitor-virtual-machine-alerts.md#machine-unavailable
