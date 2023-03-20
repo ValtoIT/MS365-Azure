@@ -8,7 +8,9 @@ An O365 account to be used to send email notification
 <br/><br/>
 ## Deployment:
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https%3A%2F%2Fraw.githubusercontent.com%2FValtoIT%2FMS365-Azure%2Fmain%2FAzure%2520ARM%2520Templates%2FAzure-Sentinel%2FAlerts%2FEmail%2520Alerts%2FAZ-Sentinel-Email-Alerts.json)
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FValtoIT%2FMS365-Azure%2Fmain%2FAzure%2520ARM%2520Templates%2FAzure-Sentinel%2FAlerts%2FEmail%2520Alerts%2FAZ-Sentinel-Email-Alerts.json" target="_blank">
+    <img src="https://aka.ms/deploytoazurebutton"/>
+</a>
 
 
 ## Post-deployment
