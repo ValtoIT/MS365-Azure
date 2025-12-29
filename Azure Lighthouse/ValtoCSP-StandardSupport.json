@@ -41,6 +41,11 @@
                     "principalIdDisplayName": "Valto Support - Reader" 
                 },
                 { 
+                    "principalId": "eabe5666-fc84-43c8-b9b2-56e1af994f09", 
+                    "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
+                    "principalIdDisplayName": "Valto Support - User Admin" 
+                },
+                { 
                     "principalId": "4844219b-b1a5-4fff-8e24-1dc2dc10ef9c", 
                     "roleDefinitionId": "ab8e14d6-4a74-4a29-9ba8-549422addade",
                     "principalIdDisplayName": "Valto Support - Security Responder" 
